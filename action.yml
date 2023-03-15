@@ -12,5 +12,5 @@ description: 'Fail the current workflow if there is a "ray()" in the code'
 runs:
   using: "composite"
   steps:
-    - run: check-ray-calls.sh
+    - run: ${{ github.action_path }}/check-ray-calls.sh
       shell: bash
