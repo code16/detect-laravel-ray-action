@@ -4,7 +4,7 @@ RESULTS=`grep -r --include "*.php" "\W@\?ray(" ./app ./resources/views ./databas
 
 if [ ! -z "$RESULTS" ]; then
   echo "found some ray() calls..."
-  echo $RESULTS
+  echo "${RESULTS}"
   exit 1
 else
   echo "no ray() calls found !"
