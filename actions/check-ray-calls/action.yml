@@ -1,0 +1,16 @@
+name: 'Check ray cals'
+description: 'Fail the current workflow if there is a "ray()" in the code'
+#inputs:
+#  who-to-greet:  # id of input
+#    description: 'Who to greet'
+#    required: true
+#    default: 'World'
+#outputs:
+#  results:
+#    description: "Results"
+#    value: ${{ steps.random-number-generator.outputs.random-number }}
+runs:
+  using: "composite"
+  steps:
+    - run: check-ray-calls.sh
+      shell: bash
