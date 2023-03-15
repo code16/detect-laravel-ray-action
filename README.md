@@ -1,5 +1,5 @@
 # Detect Laravel Ray
-This GitHub Action allows you to scan Laravel application codebase and detects remaining [Spatie's ray](https://myray.app/) calls. By default, it includes the following directories:
+This GitHub Action allows you to scan Laravel application codebase and detect remaining [Spatie's ray](https://myray.app/) calls. By default, it includes the following directories:
 - `./app`
 - `./resources/views`
 - `./database`
