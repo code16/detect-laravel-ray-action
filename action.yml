@@ -1,14 +1,5 @@
-name: 'Detect remaining Spatie\ray calls in a Laravel application'
-description: 'Fail the current workflow if there is a "ray()" or "@ray()" in the code'
-#inputs:
-#  who-to-greet:  # id of input
-#    description: 'Who to greet'
-#    required: true
-#    default: 'World'
-#outputs:
-#  results:
-#    description: "Results"
-#    value: ${{ steps.random-number-generator.outputs.random-number }}
+name: 'Detect Laravel Ray Action'
+description: 'Detect remaining Spatie\ray calls in a Laravel application. The current workflow will fail if a "ray()" or "@ray()" is found in the code'
 runs:
   using: "composite"
   steps:

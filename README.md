@@ -21,7 +21,7 @@ It is an alternative to [x-ray](https://github.com/spatie/x-ray), which is great
 
 ```yaml
 - name: Detect remaining Spatie\ray calls
-  uses: code16/x-ray-action@v1
+  uses: code16/detect-laravel-ray-action@v1
 ```
 
 ## License
