@@ -1,10 +1,21 @@
-# Detect Laravel Ray
+# Detect Laravel Ray Action
 This GitHub Action allows you to scan Laravel application codebase and detect remaining [Spatie's ray](https://myray.app/) calls. By default, it includes the following directories:
 - `./app`
 - `./resources/views`
 - `./database`
 - `./routes`
 - `./tests`
+
+It will detect:
+- `ray()` in PHP files
+- `@ray()` in blade templates
+
+It won't detect:
+- `Ray::*`
+- `rd()`
+- `dd()`
+
+It is an alternative to [x-ray](https://github.com/spatie/x-ray), which is requires PHP and doesn't scan blade templates.
 
 ## Usage
 
