@@ -15,7 +15,7 @@ It won't detect:
 - `rd()`
 - `dd()`
 
-It is an alternative to [x-ray](https://github.com/spatie/x-ray), which is requires PHP and doesn't scan blade templates.
+It is an alternative to [x-ray](https://github.com/spatie/x-ray), which is great but requires PHP and doesn't scan blade templates.
 
 ## Usage
 
