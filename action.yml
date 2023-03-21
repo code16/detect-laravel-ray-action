@@ -1,5 +1,8 @@
 name: 'Detect Laravel Ray Action'
-description: 'Detect remaining Spatie\ray calls in a Laravel application. The current workflow will fail if a "ray()" or "@ray()" is found in the code'
+description: 'Scan your Laravel application and fails if it detects remaining Spatie\ray calls ("ray()" or "@ray()")'
+branding:
+  icon: 'check-square'
+  color: 'green'
 runs:
   using: "composite"
   steps:
